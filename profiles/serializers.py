@@ -31,3 +31,4 @@ class ProfileSerializer(serializers.ModelSerializer):
             'id', 'owner', 'created_at', 'updated_at', 'name',
             'content', 'image', 'image_filter', 'is_owner',
         ]
+
