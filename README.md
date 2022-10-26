@@ -1,5 +1,7 @@
 python3 manage.py runserver
 
+python3 manage.py makemigrations --dry-run
+
 python3 manage.py test
 
 python3 manage.py startapp post
